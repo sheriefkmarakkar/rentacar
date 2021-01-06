@@ -49,13 +49,6 @@ app.use(function (req, res, next) {
   next();
 });
 
-/* app.get("/data", (req,res)=>{
-  //res.send({msg:"Data from server"})
-  res.send([
-    {name:"Arun", sal:80000},
-    {name:"Ram", sal:90000}
-  ])
-}) */
 
 app.post("/getlogin",(req,res)=>{
  
